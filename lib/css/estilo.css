@@ -1,0 +1,77 @@
+body{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(125, 123, 123);
+    background-attachment: fixed;
+}
+
+.titulo_sec{
+    margin-top: 2em;
+    text-align:center;
+    font-size: 2em;
+}
+
+.contenedor{
+    margin: auto;
+    display: flex;
+    max-width: 1032px;
+    justify-content: space-between;
+    align-items:baseline;
+    flex-wrap: wrap;
+}
+
+.marcas{
+    margin: 2em auto;
+    width: 102px;
+    height: 120px;
+    text-align: center;
+}
+
+.marcas img{
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.cuadro{
+    margin: 2em auto;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.cuadro img{
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+.cuadro h2,
+.marcas h2{
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.cuadro p{
+    font-size: 1em;
+}
+
+.servicios{
+    margin: 2em auto;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.servicios img{
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+
+
+/* @media (max-width: 600px){
+    
+} */
